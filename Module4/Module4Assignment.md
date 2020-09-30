@@ -1,21 +1,24 @@
 # Building your own website with Node-Red
 
-I have created a website which you can use to change to your own company. In this exercise
-you will learn how it is build and how you can change the layout. The website looks like this.
+We have created a website which you can use to create a simple website for your own company. In this exercise,
+you will learn how it is built and how you can change the layout. 
 
-On the top you see the horizontal bar with the name and logo of our company.
-Below on the main site there are 3 sections.
-Section 1: vertical menu buttons
-Section 2: input form
-Section 3: A search form with the output screen.
-I am going to take you step by step to create this website yourself. Just follow the actions
+The sample you will start off with was made for our company idea, ReutiliZe. The website looks like this. ![ReutilizeWebsite](img/website.png)
+
+In the image above, make note of the following:
+
+* On the top horizontal bar, you will find the name and logo of our company.
+* Below on the main site there are 3 sections.
+  * Column 1: vertical menu buttons
+  * Column 2: input form
+  * Column 3: A search form with the output screen.
+
+We are providing you with step-by-step directions to create this website for your. Just follow the actions
 below.
 
-```
-1 - Creating the Node-Red Cloud instance.
+## Create a Node-Red service on IBM Cloud
 Watch the video installing Node-red and follow the steps yourself.
-```
-```
+
 You will end with a Node-Red
 instance which looks like this. If
 you look at the screen you will
@@ -28,18 +31,17 @@ them together. Feel free to play
 around a bit. You can delete a
 Node by hitting the “delete”
 button after selecting it.
-```
+
 
 **2 - Install additional Nodes**
 Open the hamburger menu on the upper right
 corner(1). This opens a menu like this.
 Choose the option “manage palette” (2).
-
-```
+`
 The “M anage Palette ”opens a screen where you can
 find all the Nodes which are installed, and an option to
 search and install additional Nodes.
-```
+
 3 - Select the “install” tab and in the search field
 type the word “dashboard”. This gives you all the
 nodes and node collections for the Dashboard
@@ -47,17 +49,16 @@ usage.
 Select the one called “ **Node-Red-Dashboard”**
 and hit install.
 
-```
+
 Now some additional Nodes are being installed. This may take up to one minute.
 Please note that in some occasions a red error will occur saying that the installation
 has failed. You need to try again until you get a large green message that the
 installation was successful. This is a bug which can happen sometimes depending on
 your location.
-```
+
 4 - Close the field and return to the main screen. Inspect the left side
 of the screen and look for the nodes installed under “ **dashboard** ”.
 
-```
 The Dashboard Nodes are being used to build a Graphical screen
 which you can use to interact. This will be our website. I have
 created the example website for you which uses these Nodes.
