@@ -18,7 +18,7 @@ below.
 
 # **1 - Create a Node-Red service on IBM Cloud**
 
-1.1 Go to the IBm website http://cloud.ibm.com
+1.1 Go to the IBM website http://cloud.ibm.com
 
 1.2 Create an account by selecting **"create an account"** and follow the steps.
 
@@ -28,7 +28,7 @@ below.
 
 ![](img/SelectCatalog.png)
 
-1.5 In the search field type in **"Node Red"** and hit the **"node Red app"**
+1.5 In the search field type in **"Node Red"** and hit the **"Node Red app"**
 
 ![](img/SearchNodeRed.png)
 
@@ -66,16 +66,16 @@ below.
 
 ![](img/SelectNext.png)
 
-Now we have created an Node Red app as well as a place in the Cloud where we can run the app on. Now the app will be deployed automatically. This can take up to 5 minutes. You can monitor the progess in the status field. Wait until the status changes from **ïn progress"** to **"success"**
+Now we have created an Node Red app as well as a place in the Cloud where we can run the app on. Now the app will be deployed automatically. This can take up to 5 minutes. You can monitor the progess in the status field. Wait until the status changes from **"in progress"** to **"success"**
 
-![](img/Deplyment Progress.png)
+![](img/DeploymentProgress.png)
 
 1.15 Click on the name of your app under **"delivery pipelines"**
 
 ![](img/DeploymentSuccess.png)
 
 
-1.16 You see the steps you have done. You have created the Node-Redd app and you have deployed it in the IBM Cloud. Now, to go to your app select **"view console"**
+1.16 You see the steps you have done. You have created the Node-Red app and you have deployed it in the IBM Cloud. Now, to go to your app select **"view console"**
 
 ![](img/DeliveryPipeline.png)
 
@@ -138,8 +138,10 @@ The next step is to import the example website so you do not have to build it
 yourself from scratch... lets go.
 
 
-3.1 Open the file website.txt. The file is provided in the Github repository
+3.1 Open the file [website.txt](website.txt). The file is provided in the Github repository
 You can open it with any text editor installed on your computer. When opening it, it will look most probably weird and not understandable. don’t worry. This is why we use Node-Red, so we don’t need to understand the coding language.
+
+
 
 3.2 Please open the file an select all the text(pressing ctrl +a) and then copy (ctrl + c).
 
